@@ -1,0 +1,258 @@
+inherited HSCSettingsForm_Windows: THSCSettingsForm_Windows
+  ClientHeight = 500
+  DesignerMasterStyle = 0
+  inherited Panel4: TPanel
+    Size.Height = 460.000000000000000000
+    inherited SettingsScroll: TVertScrollBox
+      Size.Height = 460.000000000000000000
+      Viewport.Width = 436.000000000000000000
+      Viewport.Height = 460.000000000000000000
+      inherited SettingsLayout23: TLayout
+        inherited Panel1: TPanel
+          inherited Layout2: TLayout
+            inherited Image2: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout4: TLayout
+            inherited Image3: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout5: TLayout
+            inherited Image7: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout10: TLayout
+            inherited Image8: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout1: TLayout
+            inherited Image17: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout6: TLayout
+            inherited Image18: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout12: TLayout
+            inherited Image19: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout17: TLayout
+            inherited Image20: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout18: TLayout
+            inherited Image21: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout24: TLayout
+            inherited Image22: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout25: TLayout
+            inherited Image23: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+        end
+        inherited Layout22: TLayout
+          inherited ButtonSettings: TButton
+            Position.Y = 8.000000000000000000
+          end
+        end
+      end
+      inherited SettingsLayout3: TLayout
+        inherited Panel3: TPanel
+          inherited Layout13: TLayout
+            inherited Image9: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout14: TLayout
+            inherited Image10: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout15: TLayout
+            inherited Image11: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout16: TLayout
+            inherited Image12: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+        end
+      end
+      inherited SettingsLayout6: TLayout
+        inherited Panel2: TPanel
+          inherited Layout8: TLayout
+            inherited Image5: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout9: TLayout
+            inherited Image6: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout3: TLayout
+            inherited Image4: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout11: TLayout
+            inherited Image1: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+        end
+      end
+      inherited SettingsLayout1: TLayout
+        inherited PanelVer: TPanel
+          inherited LayoutVer1: TLayout
+            inherited Image13: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout19: TLayout
+            inherited Image14: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout20: TLayout
+            inherited Image15: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout21: TLayout
+            inherited Image16: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+        end
+      end
+      inherited Layout26: TLayout
+        inherited CoefStringGrid: TStringGrid
+          Viewport.Width = 436.000000000000000000
+          Viewport.Height = 193.000000000000000000
+          inherited StringColumn1: TStringColumn
+            Size.Width = 57.000000000000000000
+          end
+          inherited StringColumn2: TStringColumn
+            Size.Width = 55.000000000000000000
+          end
+          inherited StringColumn3: TStringColumn
+            Size.Width = 55.000000000000000000
+          end
+          inherited StringColumn4: TStringColumn
+            Size.Width = 55.000000000000000000
+          end
+          inherited StringColumn5: TStringColumn
+            Size.Width = 69.000000000000000000
+          end
+          inherited StringColumn6: TStringColumn
+            Size.Width = 57.000000000000000000
+          end
+        end
+        inherited Chart1: TChart
+          Foot.Font.StyleExt = {00040000000200000004000000}
+          Legend.Title.Font.StyleExt = {00070000000000000004000000}
+          SubFoot.Font.StyleExt = {00040000000200000004000000}
+        end
+      end
+      inherited Layout30: TLayout
+        inherited Panel5: TPanel
+          inherited Layout31: TLayout
+            inherited Image24: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout32: TLayout
+            inherited Image25: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout33: TLayout
+            inherited Image26: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout34: TLayout
+            inherited Image27: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout37: TLayout
+            inherited Image28: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout38: TLayout
+            inherited Image29: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout39: TLayout
+            inherited Image30: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout40: TLayout
+            inherited Image31: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout41: TLayout
+            inherited Image32: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+        end
+      end
+    end
+  end
+end

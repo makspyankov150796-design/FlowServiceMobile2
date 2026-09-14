@@ -1,0 +1,870 @@
+﻿inherited MainTabbedForm_NmXhdpiPh: TMainTabbedForm_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited MainTabs: TTabControl
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    Sizes = (
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s
+      400s
+      615s
+      424s
+      734s)
+    inherited TabItemMain: TTabItem
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar4: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited ImageConnectOff: TImage
+          MultiResBitmap.Height = 444
+          MultiResBitmap.Width = 222
+          Position.X = 352.000000000000000000
+        end
+        inherited ImageConnectOn: TImage
+          MultiResBitmap.Height = 887
+          MultiResBitmap.Width = 443
+        end
+        inherited ImageConnectProcces: TImage
+          MultiResBitmap.Height = 887
+          MultiResBitmap.Width = 443
+        end
+      end
+      inherited ListBox1: TListBox
+        Size.Width = 400.000000000000000000
+        Size.Height = 567.000000000000000000
+        Viewport.Width = 396.000000000000000000
+        Viewport.Height = 563.000000000000000000
+        inherited ListBoxItem1: TListBoxItem
+          Position.Y = 44.000000000000000000
+          Size.Width = 376.000000000000000000
+          inherited SwitchConnection2: TSwitch
+            Position.X = 312.000000000000000000
+          end
+          inherited LabelConnection: TLabel
+            Position.X = 212.000000000000000000
+          end
+        end
+        inherited ListBoxItemOrders: TListBoxItem
+          Position.Y = 88.000000000000000000
+          Size.Width = 376.000000000000000000
+          inherited LabelOrder: TLabel
+            Position.X = 212.000000000000000000
+          end
+        end
+        inherited ListBoxGroupHeader2: TListBoxGroupHeader
+          Position.Y = 132.000000000000000000
+        end
+        inherited ListBoxItemConditions: TListBoxItem
+          Position.Y = 176.000000000000000000
+          Size.Width = 376.000000000000000000
+        end
+        inherited ListBoxItemDevice: TListBoxItem
+          Position.Y = 220.000000000000000000
+          Size.Width = 376.000000000000000000
+          inherited LabelDeviceNumber: TLabel
+            Position.X = 212.000000000000000000
+          end
+        end
+        inherited ListBoxItem2: TListBoxItem
+          Position.Y = 264.000000000000000000
+          Size.Width = 376.000000000000000000
+          inherited ComboBoxType1: TComboBox
+            Position.X = 196.000000000000000000
+          end
+        end
+        inherited ListBoxItemCheck: TListBoxItem
+          Position.Y = 308.000000000000000000
+          Size.Width = 376.000000000000000000
+        end
+        inherited ListBoxItemResults: TListBoxItem
+          Position.Y = 352.000000000000000000
+          Size.Width = 376.000000000000000000
+        end
+        inherited Настройки: TListBoxGroupHeader
+          Position.Y = 396.000000000000000000
+        end
+        inherited ListBoxItemSettings: TListBoxItem
+          Position.Y = 440.000000000000000000
+          Size.Width = 376.000000000000000000
+        end
+        inherited ListBoxItemConnections: TListBoxItem
+          Position.Y = 484.000000000000000000
+          Size.Width = 376.000000000000000000
+        end
+        inherited ListBoxItemVersion: TListBoxItem
+          Position.Y = 528.000000000000000000
+          Size.Width = 376.000000000000000000
+        end
+      end
+    end
+    inherited TabItemCondition: TTabItem
+      ExplicitSize.cx = 84.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar2: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited Button22: TButton
+          Position.X = 352.000000000000000000
+        end
+        inherited Label52: TLabel
+          Size.Width = 400.000000000000000000
+        end
+      end
+      inherited Expander3: TExpander
+        ContentSize = '200'
+      end
+      inherited Layout14: TLayout
+        Size.Width = 400.000000000000000000
+        inherited Panel4: TPanel
+          Size.Width = 400.000000000000000000
+          inherited Layout16: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Rectangle8: TRectangle
+              Size.Width = 358.000000000000000000
+              inherited TempEdit: TEdit
+                Position.X = 178.000000000000000000
+              end
+            end
+            inherited Image8: TImage
+              MultiResBitmap.Height = 64
+              MultiResBitmap.Width = 64
+            end
+          end
+          inherited Layout17: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Rectangle9: TRectangle
+              Size.Width = 358.000000000000000000
+              inherited PressureTemp: TEdit
+                Position.X = 178.000000000000000000
+              end
+            end
+            inherited Image9: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout18: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Rectangle10: TRectangle
+              Size.Width = 358.000000000000000000
+              inherited HumidityEdit: TEdit
+                Position.X = 178.000000000000000000
+              end
+            end
+            inherited Image10: TImage
+              MultiResBitmap.Height = 16
+              MultiResBitmap.Width = 16
+            end
+          end
+          inherited Layout19: TLayout
+            Size.Width = 400.000000000000000000
+            inherited Panel5: TPanel
+              Size.Width = 400.000000000000000000
+              inherited Layout20: TLayout
+                Size.Width = 400.000000000000000000
+                inherited Rectangle11: TRectangle
+                  Size.Width = 358.000000000000000000
+                  inherited TempWaterEdit: TEdit
+                    Position.X = 178.000000000000000000
+                  end
+                end
+                inherited Image11: TImage
+                  MultiResBitmap.Height = 64
+                  MultiResBitmap.Width = 64
+                end
+              end
+              inherited Layout21: TLayout
+                inherited Rectangle12: TRectangle
+                  inherited PresWaterEdit: TEdit
+                    Size.Height = 32.000000000000000000
+                  end
+                end
+                inherited Image12: TImage
+                  MultiResBitmap.Height = 128
+                  MultiResBitmap.Width = 128
+                end
+              end
+              inherited Layout22: TLayout
+                inherited Rectangle13: TRectangle
+                  inherited DensityEdit: TEdit
+                    Size.Height = 32.000000000000000000
+                  end
+                end
+                inherited Image13: TImage
+                  MultiResBitmap.Height = 128
+                  MultiResBitmap.Width = 128
+                end
+              end
+              inherited Label26: TLabel
+                Size.Width = 364.000000000000000000
+              end
+            end
+          end
+          inherited Label22: TLabel
+            Size.Width = 364.000000000000000000
+          end
+        end
+      end
+    end
+    inherited TabItemDevice: TTabItem
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited V: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited Label11: TLabel
+          Size.Width = 400.000000000000000000
+        end
+        inherited AddDeviceButton: TButton
+          Position.X = 304.000000000000000000
+        end
+        inherited ButtonTypeDetails: TButton
+          Position.X = 352.000000000000000000
+        end
+      end
+      inherited VertScrollBox2: TVertScrollBox
+        Size.Width = 400.000000000000000000
+        Size.Height = 517.000000000000000000
+        Viewport.Width = 396.000000000000000000
+        Viewport.Height = 513.000000000000000000
+        inherited MesurmentMeanLayout: TLayout
+          Size.Width = 380.000000000000000000
+          inherited Expander2: TExpander
+            ContentSize = '255'
+          end
+          inherited Layout2: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle2: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited CertificateNumEdit: TEdit
+                Size.Width = 191.000000000000000000
+                Size.Height = 32.000000000000000000
+              end
+            end
+            inherited Image3: TImage
+              MultiResBitmap.Height = 32
+              MultiResBitmap.Width = 32
+            end
+          end
+          inherited Layout38: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Label5: TLabel
+              Size.Width = 344.000000000000000000
+            end
+          end
+          inherited Layout1: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle1: TRectangle
+              Size.Width = 332.000000000000000000
+              inherited ComboEditTypeName: TComboEdit
+                Size.Width = 236.000000000000000000
+              end
+              inherited ButtonComboDown: TButton
+                Position.X = 284.000000000000000000
+              end
+            end
+            inherited ButtonDeleteDeviceName: TButton
+              Position.X = 332.000000000000000000
+            end
+          end
+          inherited Layout40: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle17: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited EditDeviceType: TEdit
+                Size.Width = 191.000000000000000000
+                Size.Height = 32.000000000000000000
+              end
+            end
+          end
+          inherited Layout11: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle19: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited EditYears: TEdit
+                Size.Width = 191.000000000000000000
+                Size.Height = 32.000000000000000000
+              end
+            end
+            inherited Image20: TImage
+              MultiResBitmap.Height = 32
+              MultiResBitmap.Width = 32
+            end
+          end
+          inherited Layout41: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle18: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited ComboEditModification: TComboEdit
+                Size.Width = 191.000000000000000000
+              end
+            end
+          end
+        end
+        inherited Layout5: TLayout
+          Size.Width = 380.000000000000000000
+          inherited Layout25: TLayout
+            Size.Width = 380.000000000000000000
+          end
+          inherited PointsStringGrid: TStringGrid
+            Size.Width = 380.000000000000000000
+            Viewport.Width = 380.000000000000000000
+            Viewport.Height = 159.000000000000000000
+            inherited StringColumn14: TStringColumn
+              Size.Width = 65.000000000000000000
+            end
+            inherited StringColumn1: TStringColumn
+              Size.Width = 71.000000000000000000
+            end
+            inherited StringColumn2: TStringColumn
+              Size.Width = 63.000000000000000000
+            end
+            inherited StringColumn3: TStringColumn
+              Size.Width = 63.000000000000000000
+            end
+            inherited StringColumn4: TStringColumn
+              Size.Width = 55.000000000000000000
+            end
+            inherited StringColumn6: TStringColumn
+              Size.Width = 79.000000000000000000
+            end
+          end
+          inherited Layout31: TLayout
+            Size.Width = 380.000000000000000000
+          end
+        end
+        inherited Layout26: TLayout
+          Size.Width = 380.000000000000000000
+          inherited Layout28: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle15: TRectangle
+              Size.Width = 348.000000000000000000
+              inherited QmaxEdit: TEdit
+                Size.Width = 185.000000000000000000
+                Size.Height = 32.000000000000000000
+              end
+            end
+            inherited Image15: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited LayoutCoef: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Layout48: TLayout
+              Size.Width = 380.000000000000000000
+              inherited Image16: TImage
+                MultiResBitmap.Height = 128
+                MultiResBitmap.Width = 128
+              end
+              inherited Rectangle16: TRectangle
+                Size.Width = 348.000000000000000000
+                inherited KpEdit1: TEdit
+                  Size.Width = 185.000000000000000000
+                  Size.Height = 32.000000000000000000
+                end
+              end
+            end
+            inherited Layout44: TLayout
+              Size.Width = 380.000000000000000000
+              inherited Rectangle28: TRectangle
+                Size.Width = 348.000000000000000000
+                inherited KpEdit2: TEdit
+                  Size.Width = 185.000000000000000000
+                  Size.Height = 32.000000000000000000
+                end
+              end
+              inherited Image2: TImage
+                MultiResBitmap.Height = 128
+                MultiResBitmap.Width = 128
+              end
+            end
+          end
+          inherited Layout30: TLayout
+            Size.Width = 380.000000000000000000
+          end
+        end
+        inherited LayoutTool: TLayout
+          Size.Width = 380.000000000000000000
+          inherited LayoutSerialNumber: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle3: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited SerialNumEdit: TEdit
+                Size.Width = 191.000000000000000000
+              end
+            end
+            inherited Image4: TImage
+              MultiResBitmap.Height = 16
+              MultiResBitmap.Width = 16
+            end
+          end
+          inherited LayoutYearProduction: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle22: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited EditYear: TEdit
+                Size.Width = 191.000000000000000000
+              end
+            end
+            inherited Image22: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout4: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Label40: TLabel
+              Size.Width = 344.000000000000000000
+            end
+          end
+        end
+        inherited LayoutCommon: TLayout
+          Size.Width = 380.000000000000000000
+          inherited LayoutDoc: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle24: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited EditDoc: TEdit
+                Size.Width = 191.000000000000000000
+              end
+            end
+            inherited Image24: TImage
+              MultiResBitmap.Height = 16
+              MultiResBitmap.Width = 16
+            end
+          end
+          inherited LayoutAdress: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle25: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited MemoAdress: TMemo
+                Size.Width = 328.000000000000000000
+                Viewport.Width = 328.000000000000000000
+                Viewport.Height = 67.000000000000000000
+              end
+            end
+            inherited Image25: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout49: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Label45: TLabel
+              Size.Width = 344.000000000000000000
+            end
+          end
+          inherited LayoutPrice: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle26: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited Edit9: TEdit
+                Size.Width = 191.000000000000000000
+                Size.Height = 32.000000000000000000
+              end
+            end
+            inherited Image26: TImage
+              MultiResBitmap.Height = 16
+              MultiResBitmap.Width = 16
+            end
+          end
+        end
+        inherited LayoutMesurementTool: TLayout
+          Size.Width = 380.000000000000000000
+          inherited Layout43: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle21: TRectangle
+              Size.Width = 121.000000000000000000
+            end
+            inherited Image21: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout3: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle7: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited EditVerificationInterval: TEdit
+                Size.Width = 191.000000000000000000
+              end
+            end
+            inherited Image7: TImage
+              MultiResBitmap.Height = 128
+              MultiResBitmap.Width = 128
+            end
+          end
+          inherited Layout12: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle23: TRectangle
+              Size.Width = 338.000000000000000000
+              inherited EditDN: TEdit
+                Size.Width = 191.000000000000000000
+              end
+            end
+            inherited Image23: TImage
+              MultiResBitmap.Height = 16
+              MultiResBitmap.Width = 16
+            end
+          end
+          inherited Layout45: TLayout
+            Size.Width = 380.000000000000000000
+          end
+        end
+      end
+      inherited Panel7: TPanel
+        Position.Y = 565.000000000000000000
+        Size.Width = 400.000000000000000000
+      end
+    end
+    inherited TabItemCheck: TTabItem
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar1: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited LabelConnection1: TLabel
+          TextSettings.Font.StyleExt = {00020000000000000004000000}
+        end
+        inherited AddButton: TButton
+          Position.X = 300.000000000000000000
+        end
+        inherited ImageConnectOff1: TImage
+          MultiResBitmap.Height = 444
+          MultiResBitmap.Width = 222
+          Position.X = 352.000000000000000000
+        end
+        inherited ImageConnectOn1: TImage
+          MultiResBitmap.Height = 887
+          MultiResBitmap.Width = 443
+        end
+        inherited ImageConnectProcces1: TImage
+          MultiResBitmap.Height = 887
+          MultiResBitmap.Width = 443
+        end
+      end
+      inherited VertScrollBox4: TVertScrollBox
+        Size.Width = 400.000000000000000000
+        Size.Height = 418.000000000000000000
+        Viewport.Width = 396.000000000000000000
+        Viewport.Height = 414.000000000000000000
+        inherited LayoutCheckType: TLayout
+          Size.Width = 380.000000000000000000
+          inherited Layout27: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle20: TRectangle
+              Size.Width = 348.000000000000000000
+            end
+            inherited Image17: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+          end
+          inherited Layout15: TLayout
+            Size.Width = 380.000000000000000000
+            inherited StringGridTest: TStringGrid
+              Size.Width = 380.000000000000000000
+              Viewport.Width = 380.000000000000000000
+              Viewport.Height = 65.000000000000000000
+              inherited StringColumn10: TStringColumn
+                Size.Width = 89.000000000000000000
+              end
+              inherited StringColumn13: TStringColumn
+                Size.Width = 101.000000000000000000
+              end
+            end
+          end
+          inherited Layout23: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle14: TRectangle
+              Size.Width = 228.000000000000000000
+            end
+            inherited Image14: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+            inherited TestMeterKoefEdit: TEdit
+              Position.X = 260.000000000000000000
+            end
+          end
+          inherited Layout46: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Rectangle27: TRectangle
+              Size.Width = 348.000000000000000000
+              inherited ComboBoxUnits: TComboBox
+                Position.X = 228.000000000000000000
+              end
+            end
+            inherited Image27: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+          end
+          inherited LayoutHandle: TLayout
+            Size.Width = 380.000000000000000000
+          end
+        end
+        inherited Layout6: TLayout
+          Size.Width = 380.000000000000000000
+          inherited Panel2: TPanel
+            Size.Width = 380.000000000000000000
+            inherited Layout7: TLayout
+              Size.Width = 380.000000000000000000
+              inherited Rectangle4: TRectangle
+                Size.Width = 348.000000000000000000
+                inherited TimeEdit: TEdit
+                  Position.X = 225.000000000000000000
+                end
+                inherited LabelTime: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Image1: TImage
+                MultiResBitmap.Height = 128
+                MultiResBitmap.Width = 128
+              end
+            end
+            inherited Layout8: TLayout
+              Size.Width = 380.000000000000000000
+              inherited Rectangle5: TRectangle
+                Size.Width = 348.000000000000000000
+                inherited VolumeEdit: TEdit
+                  Position.X = 225.000000000000000000
+                end
+                inherited LabelVolume: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Image5: TImage
+                MultiResBitmap.Height = 128
+                MultiResBitmap.Width = 128
+              end
+            end
+            inherited Layout9: TLayout
+              Size.Width = 380.000000000000000000
+              inherited Rectangle6: TRectangle
+                Size.Width = 348.000000000000000000
+                inherited FlowEdit: TEdit
+                  Position.X = 225.000000000000000000
+                end
+                inherited LabelFlow: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+              inherited Image6: TImage
+                MultiResBitmap.Height = 64
+                MultiResBitmap.Width = 64
+              end
+            end
+          end
+          inherited Layout47: TLayout
+            Size.Width = 380.000000000000000000
+            inherited Label8: TLabel
+              Position.X = 256.000000000000000000
+            end
+          end
+        end
+        inherited Layout10: TLayout
+          Size.Width = 380.000000000000000000
+          inherited PreviousPointButton: TButton
+            Size.Height = 48.000000000000000000
+          end
+          inherited NextPointButton: TButton
+            Position.X = 332.000000000000000000
+            Size.Height = 48.000000000000000000
+          end
+          inherited PointLabel: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+      inherited Panel6: TPanel
+        Position.Y = 466.000000000000000000
+        Size.Width = 400.000000000000000000
+        inherited Layout13: TLayout
+          Size.Width = 400.000000000000000000
+          inherited Layout24: TLayout
+            Position.X = 253.000000000000000000
+          end
+        end
+      end
+      inherited Panel8: TPanel
+        Position.Y = 565.000000000000000000
+        Size.Width = 400.000000000000000000
+      end
+    end
+    inherited TabItemResults: TTabItem
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar3: TToolBar
+        Size.Width = 400.000000000000000000
+        inherited ButtonSendData: TButton
+          Position.X = 352.000000000000000000
+        end
+        inherited Label15: TLabel
+          Size.Width = 400.000000000000000000
+        end
+      end
+      inherited VertScrollBox1: TVertScrollBox
+        Size.Width = 400.000000000000000000
+        Size.Height = 567.000000000000000000
+        Viewport.Width = 396.000000000000000000
+        Viewport.Height = 563.000000000000000000
+        inherited OrdersExpander: TExpander
+          ContentSize = '200'
+          inherited Layout39: TLayout
+            inherited OrdersStringGrid: TStringGrid
+              Viewport.Width = 392.000000000000000000
+              Viewport.Height = 121.000000000000000000
+              inherited IDOrderStringColumn: TStringColumn
+                Size.Width = 97.000000000000000000
+              end
+              inherited StringColumn21: TStringColumn
+                Size.Width = 111.000000000000000000
+              end
+            end
+          end
+        end
+        inherited Layout32: TLayout
+          Size.Width = 396.000000000000000000
+          inherited Layout34: TLayout
+            Size.Width = 396.000000000000000000
+          end
+          inherited ComboEditOrders: TComboEdit
+            Enabled = False
+            Size.Width = 396.000000000000000000
+          end
+          inherited DevicesGrid: TStringGrid
+            Size.Width = 396.000000000000000000
+            Viewport.Width = 396.000000000000000000
+            Viewport.Height = 201.000000000000000000
+          end
+        end
+        inherited Layout33: TLayout
+          Size.Width = 396.000000000000000000
+          inherited Layout35: TLayout
+            Size.Width = 396.000000000000000000
+            inherited Layout36: TLayout
+              Size.Width = 396.000000000000000000
+            end
+            inherited DataPointsGrid: TStringGrid
+              Size.Width = 396.000000000000000000
+              Viewport.Width = 396.000000000000000000
+              Viewport.Height = 151.000000000000000000
+              inherited StringColumn15: TStringColumn
+                Size.Width = 73.000000000000000000
+              end
+              inherited StringColumn16: TStringColumn
+                Size.Width = 103.000000000000000000
+              end
+              inherited StringColumn17: TStringColumn
+                Size.Width = 79.000000000000000000
+              end
+              inherited StringColumn18: TStringColumn
+                Size.Width = 87.000000000000000000
+              end
+            end
+            inherited Layout37: TLayout
+              Size.Width = 396.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    inherited Tests: TTabItem
+      ExplicitSize.cx = 82.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Memo2: TMemo
+        Viewport.Width = 377.000000000000000000
+        Viewport.Height = 129.000000000000000000
+      end
+      inherited Memo4: TMemo
+        Viewport.Width = 99.000000000000000000
+        Viewport.Height = 99.000000000000000000
+      end
+      inherited Memo3: TMemo
+        Viewport.Width = 467.000000000000000000
+        Viewport.Height = 145.000000000000000000
+      end
+      inherited Layout42: TLayout
+        Size.Width = 400.000000000000000000
+        inherited Label41: TLabel
+          Size.Width = 364.000000000000000000
+        end
+      end
+    end
+    inherited TabItemTestBLE: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited MemoConnect: TMemo
+        Viewport.Width = 305.000000000000000000
+        Viewport.Height = 171.000000000000000000
+      end
+      inherited StringGrid1: TStringGrid
+        Options = [AlternatingRowBackground, Editing, ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+        Viewport.Width = 278.000000000000000000
+        Viewport.Height = 42.000000000000000000
+      end
+      inherited Memo1: TMemo
+        Viewport.Width = 89.000000000000000000
+        Viewport.Height = 171.000000000000000000
+      end
+    end
+  end
+  inherited GestureManager1: TGestureManager
+    GestureData = <
+      item
+        Control = ListBoxGroupHeader1
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end
+      item
+        Control = Layout8
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end>
+      end
+      item
+        Control = LabelLimit
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end>
+      end
+      item
+        Control = PointLabel
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end>
+      end
+      item
+        Control = ToolBar3
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end>
+      end
+      item
+        Control = ComboEditOrders
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end>
+      end>
+  end
+end

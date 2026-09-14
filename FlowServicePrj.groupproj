@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A94CBEE0-014A-4BE4-87BB-F489C6025A23}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FlowService.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FlowService">
+        <MSBuild Projects="FlowService.cbproj"/>
+    </Target>
+    <Target Name="FlowService:Clean">
+        <MSBuild Projects="FlowService.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FlowService:Make">
+        <MSBuild Projects="FlowService.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FlowService"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FlowService:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FlowService:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
